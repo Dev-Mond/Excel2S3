@@ -1,0 +1,32 @@
+{
+  "name": "excel2s3",
+  "version": "1.0.7",
+  "description": "The Excel2S3 is helper library for generating more easier excel file from simple to complex format and save the output in s3 bucket.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dev-Mond/Excel2S3.git"
+  },
+  "keywords": [
+    "excel2s3",
+    "excel",
+    "s3"
+  ],
+  "dependencies": {
+    "aws-sdk": "^2.968.0",
+    "exceljs": "^4.2.1",
+    "stream": "0.0.2"
+  },
+  "author": "Raymond Angue",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dev-Mond/Excel2S3/issues"
+  },
+  "homepage": "https://github.com/Dev-Mond/Excel2S3#readme"
+}
